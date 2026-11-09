@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int modelNumber;
-    cout << "Enter car model number (1-4): ";
+    cout << "Enter car model number (1-7): ";
     cin >> modelNumber;
     switch (modelNumber) {
         case 1:
@@ -25,6 +25,21 @@ int main() {
             cout << "Model: BMW X5" << endl;
             cout << "Year: 2021" << endl;
             cout << "Price: $60,000" << endl;
+            break;
+        case 5:
+            cout << "Model: Audi A4" << endl;
+            cout << "Year: 2020" << endl;
+            cout << "Price: $40,000" << endl;
+            break;
+        case 6:
+            cout << "Model: Honda Civic" << endl;
+            cout << "Year: 2018" << endl;
+            cout << "Price: $18,000" << endl;
+            break;
+        case 7:
+            cout << "Model: Mercedes-Benz C-Class" << endl;
+            cout << "Year: 2022" << endl;
+            cout << "Price: $55,000" << endl;
             break;
         default:
             cout << "Error: Unknown car model number." << endl;
