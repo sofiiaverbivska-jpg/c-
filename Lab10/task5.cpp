@@ -27,8 +27,6 @@ int main() {
             }
         }
     }
-
-    // 3. Виведення результату
     cout << "\nMaximum element is: " << maxVal << endl;
     cout << "It is located at row " << maxRow + 1 << ", column " << maxCol + 1 << endl;
 
